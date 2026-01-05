@@ -12,7 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://cd73eei17ugqj" path="res://scenes/banana.tscn" id="8_gee14"]
 [ext_resource type="PackedScene" uid="uid://b53xmrv0w7ibx" path="res://scenes/chicken_enemy.tscn" id="9_0tnpc"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lnu2h"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kvpfn"]
 texture = ExtResource("2_yqjtg")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, 8, -8, 8, -8, -8, 8, -8, 8, 0, 0.5395756, 0)
@@ -289,7 +289,7 @@ texture = ExtResource("2_yqjtg")
 20:10/0 = 0
 20:10/0/physics_layer_0/polygon_0/points = PackedVector2Array(-0.5395756, -8, 8, -8, 8, 8, -8, 8, -8, -3.057598, -8, -8)
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iywne"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dinhu"]
 texture = ExtResource("3_lbhrr")
 0:0/0 = 0
 1:0/0 = 0
@@ -310,13 +310,13 @@ texture = ExtResource("3_lbhrr")
 
 [sub_resource type="TileSet" id="TileSet_lbhrr"]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_lnu2h")
-sources/1 = SubResource("TileSetAtlasSource_iywne")
+sources/0 = SubResource("TileSetAtlasSource_kvpfn")
+sources/1 = SubResource("TileSetAtlasSource_dinhu")
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_lbhrr"]
 distance = 1.0
 
-[node name="Game" type="Node2D"]
+[node name="Mapa 1" type="Node2D"]
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_uwrxv")]
 position = Vector2(-44, -20)
