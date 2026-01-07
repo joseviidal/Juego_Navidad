@@ -4,7 +4,7 @@ extends CharacterBody2D
 @onready var ray_cast_2d_left: RayCast2D = $RayCast2D_left
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 
-const SPEED = 60.0
+const SPEED = 60.0 
 var direction = 1
 
 func _process(delta):

@@ -1,6 +1,11 @@
 extends Area2D
 
-func _on_body_entered(body: CharacterBody2D) -> void:
-	print("Has tocado la gallina")
-	#body.get_node("CollisionShape2D").queue_free()
-	get_tree().reload_current_scene()
+@onready var audio_stream_player: AudioStreamPlayer = $AudioStreamPlayer
+
+func _on_body_entered(body: Node2D) -> void:
+	# Verificamos que el objeto que entra sea el jugador
+	if body is CharacterBody2D:
+		print("Has muerto")
+		audio_stream_player.play()
+		# Reiniciamos la escena inmediatamente para que el jugador reaparezca
+		get_tree().reload_current_scene()
