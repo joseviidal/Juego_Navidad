@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://p300gryx873v"
+path="res://.godot/imported/cancion de fondo.mp3-4be42312d2da0e4d4d3386b4385e2b98.mp3str"
+
+[deps]
+
+source_file="res://assets/Free/Audios/cancion de fondo.mp3"
+dest_files=["res://.godot/imported/cancion de fondo.mp3-4be42312d2da0e4d4d3386b4385e2b98.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
