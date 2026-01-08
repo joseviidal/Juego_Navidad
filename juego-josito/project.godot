@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Juego_Josito"
-run/main_scene="uid://bkv4lqhi0ul8x"
+run/main_scene="uid://domny3lcyn7v2"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 

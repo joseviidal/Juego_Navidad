@@ -9,7 +9,8 @@ priority = -80
 script = ExtResource("1_svk5y")
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 0.3
+process_callback = 0
+wait_time = 0.2
 one_shot = true
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
