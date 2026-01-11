@@ -6,7 +6,7 @@ Juego de Godot en Navidad para Programación Multimedia
 
 El juego consta de 3 mapas, en los cuales tienes que llegar al final de este esquivando enemigos. Para pasar al siguiente mapa habrá una bandera al final de cada uno que te llevará al siguiente nivel.
 
-A cada nivel que pasa el juego se pone un poco más difícil, ya que los enemigos son más difíciles. En el primer mapa, tan solo hay gallinas las cuales hay que sortear, en el segundo hay muerciélagos los cuales te persiguen dentro de un área, y por último en el tendrás tanto gallinas como muerciélagos.
+A cada nivel que pasa el juego se pone un poco más difícil, ya que los enemigos son más difíciles. En el primer mapa, tan solo hay gallinas las cuales hay que sortear, en el segundo hay murciélagos los cuales te persiguen dentro de un área, y por último en el tendrás tanto gallinas como murciélagos.
 
 
 
